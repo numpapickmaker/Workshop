@@ -21,6 +21,7 @@ All text above, and the splash screen must be included in any redistribution
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
+#define SSD1306_128_64
 #define OLED_RESET LED_BUILTIN
 Adafruit_SSD1306 display(OLED_RESET);
 
